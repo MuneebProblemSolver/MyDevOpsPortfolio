@@ -48,14 +48,7 @@ const Experience = () => {
               Dec 2023 - Present <br></br>  <br />
             </span>
           </div>
-          {/* <div>
-            <img src={tick} alt="img-icon"></img>
-            <span className="span-home">
-           Marketing Head of CS Club
-              at <b>The Superior University, LHR</b><br />
-              Feb 2023 - Feb 2024 <br></br> 
-            </span>
-          </div> */}
+          
         </div>
       </div>
       <div className="left-r">
