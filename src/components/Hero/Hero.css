@@ -1,0 +1,274 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    margin-right: 5px;
+}
+.left-h {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-h {
+    flex: 1;
+    position: relative;
+    background-color: #3b0e68;
+}
+
+.the-best-ad {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    border-radius: 4rem;
+    width: fit-content;
+    text-transform: capitalize;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.the-best-ad>span {
+    z-index: 2;
+}
+
+
+.the-best-ad>div {
+    position: absolute;
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    text-transform: none;
+    font-size: 3rem;
+    text-overflow: inherit;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-text>div:nth-of-type(3) {
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.figures {
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.figures>div>span:nth-of-type(1) {
+    color: white;
+    font-size: 2rem;
+}
+
+.figures>div>span:nth-of-type(2) {
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.hero-buttons>:nth-of-type(1) {
+    color: white;
+    background-color: var(--pink);
+    width: 12rem;
+}
+
+.hero-buttons>:nth-child(1)>a:hover {
+    color: white;
+}
+
+.hero-buttons>:nth-of-type(2) {
+    color: white;
+    background-color: transparent;
+    width: 12rem;
+    border: 2px solid var(--pink);
+}
+
+.right-h>.btn {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+
+.right-h>.btn>a {
+    color: black;
+}
+
+.right-h>.btn>a:hover {
+    color: white;
+}
+
+.heart-rate {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #11071f;
+    width: fit-content;
+    padding: 0.7rem;
+    align-items: flex-start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+
+.heart-rate>img {
+    width: 2rem;
+}
+
+.heart-rate>:nth-child(2) {
+    color: var(--gray);
+}
+
+.heart-rate>:nth-child(3) {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hero-image {
+    position: absolute;
+    top: 11rem;
+    right: 8rem;
+    width: 23rem;
+    background: radial-gradient(50% 50% at 50% 50%, #ece8f0 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+.node {
+    display: flex;
+    gap: 1rem;
+    background-color: #3b0e68;
+    border-radius: 5px;
+    padding: 0.7rem;
+    width: fit-content;
+    position: absolute;
+    top: 38rem;
+    right: 28rem;
+}
+
+.node>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.node>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.node>div> :nth-child(1) {
+    color: var(--gray);
+
+}
+
+.node>div> :nth-child(2) {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.blur .hero-blur {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .the-best-ad {
+        margin-top: 0;
+        font-size: x-large;
+        align-items: center;
+        transform: scale(0.8);
+    }
+
+    .hero-text {
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text>div:nth-of-type(3) {
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .figures>div>span:nth-of-type(1) {
+        font-size: large;
+    }
+
+    .figures>div>span:nth-of-type(2) {
+        font-size: small;
+    }
+
+    .right-h {
+        position: relative;
+        background-color: #505257;
+    }
+
+    .heart-rate {
+        left: 1rem;
+        top: 2rem;
+    }
+
+    .node {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+
+    .node>img {
+        width: 2rem;
+    }
+
+    .node>div>:nth-child(2) {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .hero-image {
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
+}
