@@ -17,56 +17,59 @@ This project focuses on front-end skills with ReactJS, development of my persona
 
 - **Create React App**:  
   Initialize the project using:
-  ```bash
-  npx create-react-app 
-React Icons:
-Install icons for your project:
+```bash
+  npx create-react-app
+```
 
-bash
-Copy code
+- **React Icons:Install icons for your project:**
+```bash
 npm install react-icons
-React Elastic Carousel:
-For carousel functionality:
+```
 
-bash
-Copy code
+- **React Elastic Carousel, For carousel functionality:**
+```bash
 npm install react-elastic-carousel
-ESLint:
-Code linting and style standardization:
+```
 
-bash
-Copy code
+-**ESLint:
+Code linting and style standardization:**
+
+```bash
 npx eslint --init
+```
 💻 Prerequisites Before you begin, make sure you've met the following requirements:
 
 You have the latest version of Node.js installed.
 You are running the project on a Windows machine (or any compatible environment).
-🚀 Installing the project To install the project, follow these steps:
+
+**🚀 Installing the project To install the project, follow these steps:**
 
 For Windows or other OS:
 
-bash
-Copy code
+```bash
 git clone <repository_url>
 cd <repository_folder>
 npm install
 npm start
-📫 Contributing to the Project To contribute to this project, follow these steps:
+```
+**📫 Contributing to the Project To contribute to this project, follow these steps:**
 
 Fork this repository.
 Create a branch:
-bash
-Copy code
+```bash
 git checkout -b <branch_name>
+```
 Make your changes and commit them:
-bash
-Copy code
+```bash
 git commit -m '<commit_message>'
+```
+
 Push to the original branch:
-bash
-Copy code
+```bash
 git push origin <branch_name>
+```
 Create a pull request.
+
 Alternatively, see the GitHub documentation on how to create a pull request.
 
 🤝 Collaborators Thanks to the following people who have contributed to this project:
@@ -76,12 +79,7 @@ Malik Muneeb Asghar
 
 📝 License This project is licensed. See the LICENSE file for more details.
 
-⬆ Back to top
-
-sql
-Copy code
-
-Feel free to modify or add additional details, like your project link under the "Live Application Deploy" section, and customize it further as needed!
+**Feel free to modify or add additional details, like your project link under the "Live Application Deploy" section, and customize it further as needed!**
 
 
 
