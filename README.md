@@ -1,112 +1,89 @@
-<<<<<<< HEAD
-# My-DevOps-Portfolio
-=======
-# PortfólioSoftware-FullStack
 
-⚛ Development with ReactJs  - Portfólio
+# My DevOps Portfolio
 
-### 📑Explicação
+### Portfolio FullStack Software Engineer
 
-Projeto focado nas habilidades Front-end com ReactJs, desenvolvimento do meu Portfólio, 
-desenvolvimento de sistema Web, contém boas práticas de utilizar Hooks do ReactJs, renderização de componentes, demostração de algumas das minha habilidades, alguns dos meus projetos.
+⚛ Development with ReactJS - Portfolio
 
-<br>
+#### 📑 Explanation
+This project focuses on front-end skills with ReactJS, development of my personal portfolio, and web system development. It follows best practices using ReactJS Hooks, component rendering, and demonstrates some of my skills and projects.
 
-🚀 Projeto 
-<br>
-
-<img src="https://github.com/yasmimferreir/EcommercAPI-MercadoLivre/assets/97356148/3810a5ea-f585-44af-ac0d-259790812250" width="1000px">
-
-<br>
-<br>
-
-### 🔍 Deploy da aplicação: 
-
-<br>
+🚀 Project:
+![🔍 Live Application Deploy](./src/assets/Projectss.png)
 
 
-⚔️ Utilização de ferramenta no Front-end / ***ReactJs***:
 
-```
-npx create-react-app 
-```
-<br>
+⚔️ Tools used in Front-end Development / ReactJS:
 
+- **Create React App**:  
+  Initialize the project using:
+  ```bash
+  npx create-react-app 
+React Icons:
+Install icons for your project:
 
-⚔️ Utilização de ferramenta no Front-end / ***React Icons***:
+bash
+Copy code
+npm install react-icons
+React Elastic Carousel:
+For carousel functionality:
 
-```
-npm i react-icon
-```
-<br>
+bash
+Copy code
+npm install react-elastic-carousel
+ESLint:
+Code linting and style standardization:
 
-⚔️ Utilização de ferramenta no Front-end / ***React Elastic carousel***:
-
-```
-npm i react-elastic-carousel
-```
-<br>
-
-⚔️ Utilização de ferramenta no Front-end Padronização/ ***Eslint***:
-
-```
+bash
+Copy code
 npx eslint --init
-```
-<br>
+💻 Prerequisites Before you begin, make sure you've met the following requirements:
 
-<br>
+You have the latest version of Node.js installed.
+You are running the project on a Windows machine (or any compatible environment).
+🚀 Installing the project To install the project, follow these steps:
 
+For Windows or other OS:
 
-## 💻 Pré-requisitos
+bash
+Copy code
+git clone <repository_url>
+cd <repository_folder>
+npm install
+npm start
+📫 Contributing to the Project To contribute to this project, follow these steps:
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de  NodeJs
-* Você tem uma máquina Windows 
+Fork this repository.
+Create a branch:
+bash
+Copy code
+git checkout -b <branch_name>
+Make your changes and commit them:
+bash
+Copy code
+git commit -m '<commit_message>'
+Push to the original branch:
+bash
+Copy code
+git push origin <branch_name>
+Create a pull request.
+Alternatively, see the GitHub documentation on how to create a pull request.
 
-## 🚀 Instalando o projeto 
+🤝 Collaborators Thanks to the following people who have contributed to this project:
 
-Para instalar o projeto, siga estas etapas:
+Malik Muneeb Asghar
+😄 Want to contribute? Do you want to be part of this project? Click HERE to read how to contribute.
 
-Windows: <br>
-git clone `url`.
+📝 License This project is licensed. See the LICENSE file for more details.
 
-## 📫 Contribuindo para o Projeto 
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com o projeto, siga estas etapas:
+⬆ Back to top
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+sql
+Copy code
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://user-images.githubusercontent.com/97356148/200590856-942d44a8-f136-4320-a381-699ecbc0d6ec.JPG" width="100px;" alt="Foto Yasmim Ferreira Costa"/><br>
-        <sub>
-          <b>Yasmim Ferreira Costa</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+Feel free to modify or add additional details, like your project link under the "Live Application Deploy" section, and customize it further as needed!
 
 
-## 😄 Seja um dos contribuidores<br>
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
 
-## 📝 Licença
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#PortfólioSoftware-FullStack)<br>
->>>>>>> 87e8828 (Initial commit)
